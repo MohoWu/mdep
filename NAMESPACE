@@ -1,0 +1,47 @@
+#imports
+importFrom(utils, head)
+importFrom(utils, tail)
+importFrom(stats, reshape)
+import(lubridate)
+importFrom(R.utils, bunzip2)
+importFrom(data.table, rbindlist)
+
+#exports
+##download
+export(decodeTCDtoCSV)
+export(downloadMIDAScsv)
+
+#midas
+export(createMIDAS)
+export(readMIDAS)
+
+#methods
+export(datetimeMIDAS)
+export(reduceMIDAS)
+export(rbindMIDAS)
+export(replaceZeroNaMIDAS)
+#export(replaceZeroMinSpdMIDAS)
+export(macroMIDAS)
+export(coordinatesMIDAS)
+export(addDescMIDAS)
+export(routeMIDAS)
+export(cutTimeMIDAS)
+export(calcMinAvgSpdMIDAS)
+export(laneNrMIDAS)
+export(wideMacroMIDAS)
+
+#generics
+export(nrow)
+export(ncol)
+#s3 methods
+S3method(as.data.frame, midas)
+S3method(names, midas)
+S3method(print, midas)
+S3method(summary, midas)
+S3method(head, midas)
+S3method(tail, midas)
+S3method(nrow, default)
+S3method(nrow, midas)
+S3method(ncol, default)
+S3method(ncol, midas)
+#add [ and $

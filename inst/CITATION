@@ -1,0 +1,21 @@
+citHeader("When using mdem in publications, please refer to the following;")
+
+year <- sub("-.*", "", meta$Date)
+vers <- paste("R package version", meta$Version)
+
+citEntry(entry="Manual",
+        title 		= "midas data extraction/management",
+        author		= personList(as.person("Arwa Sayegh")),
+        year 		= year,
+        note 		= vers,
+        textVersion = 
+			paste("Sayegh, A.",
+				sprintf("(%s).", year),
+               "midas data extraction/management",
+				vers),
+		header 		= "To cite the mdem package, please use:"
+)
+
+citFooter("Please cite R",
+          "when using 'mdem' for midas data extraction/management.",
+          "For R citation, please check ", sQuote("citation()"))
