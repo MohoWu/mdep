@@ -5,7 +5,7 @@
 
 #### NOTE: As part of the privacy agreement with the Highway England, none of the data will be given here nor access to data. Data needs to be directly requested from the Highways England/Mott Mcdonald.
 
-#### Hope this repository helps in some way. Please [get in touch](mailto:arwa.sayegh@gmail.com) if you have anything. 
+#### Hope this repository helps in some way. Please [get in touch](mailto:arwa.sayegh@gmail.com) if you have any question/comment... 
 
 #### Thank you
 #### Arwa
