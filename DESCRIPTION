@@ -1,0 +1,15 @@
+Package: mdep
+Type: Package
+Title: midas data extraction and pre-processing
+Version: 1.0
+Date: 2016-11-05
+Author: Arwa Sayegh
+Maintainer: Arwa Sayegh <ts11ass@leeds.ac.uk>
+Description: Few (very basic!) functions on the data extraction and pre-processing of traffic counting data 
+			of the Highways England MIDAS network. These function are used to prepare the road networks
+			and traffic data sets for macroscopic traffic flow models (such as CTM/METANET).
+			To use these functions you need to have access to the midas data base, which is available upon request.
+			Raw data/transformed data are explained/provided in my PhD thesis.
+Depends: utils, stats, lubridate, R.utils, data.table
+LazyData: yes
+License: GPL (>=2)
